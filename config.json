@@ -1,0 +1,76 @@
+{
+  "system_config": {
+    "name": "Multi-Source Stock Analyzer",
+    "version": "1.0.0",
+    "description": "Support for multiple data sources including Tong Hua Shun iFinD, East Money API, akshare, and jqdatasdk"
+  },
+  "data_sources": {
+    "akshare": {
+      "enabled": true,
+      "type": "open_source",
+      "description": "Free financial data API",
+      "requires_auth": false
+    },
+    "east_money": {
+      "enabled": false,
+      "type": "commercial",
+      "description": "East Money financial data service",
+      "requires_auth": true,
+      "auth_required_fields": ["api_key"]
+    },
+    "ifind": {
+      "enabled": false,
+      "type": "commercial",
+      "description": "iFinD financial data service by Tong Hua Shun",
+      "requires_auth": true,
+      "auth_required_fields": ["username", "password"]
+    },
+    "jqdata": {
+      "enabled": false,
+      "type": "commercial",
+      "description": "JQDataSDK by JoinQuant",
+      "requires_auth": true,
+      "auth_required_fields": ["username", "password"]
+    }
+  },
+  "analysis_settings": {
+    "default_sources": ["akshare"],
+    "enable_cross_validation": true,
+    "data_quality_threshold": 7.0,
+    "analysis_depth": "comprehensive",
+    "technical_indicators": [
+      "ma5", "ma20", "ma60",
+      "rsi", "macd",
+      "bollinger_bands"
+    ],
+    "fundamental_metrics": [
+      "pe", "pb", "eps",
+      "roa", "rota", "debt_to_equity"
+    ]
+  },
+  "output_settings": {
+    "default_format": "both",
+    "output_directory": "d:/Codex/multi_source_stock_analyzer/output",
+    "report_template": "d:/Codex/multi_source_stock_analyzer/templates/report_template.html",
+    "enable_pdf_export": false
+  },
+  "risk_management": {
+    "risk_thresholds": {
+      "high": 8.0,
+      "medium": 5.0,
+      "low": 2.0
+    },
+    "risk_factors": [
+      "market_volatility",
+      "valuation_risk",
+      "liquidity_risk",
+      "technical_risk"
+    ]
+  },
+  "performance": {
+    "cache_enabled": true,
+    "cache_duration_minutes": 30,
+    "max_concurrent_requests": 5,
+    "request_timeout_seconds": 30
+  }
+}

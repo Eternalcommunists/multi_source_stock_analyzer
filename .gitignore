@@ -1,0 +1,222 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+.python-version
+
+# Builds
+build/
+dist/
+*.egg-info/
+*.so
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nyc_output/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+.pytest_cache/
+.hypothesis/
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+iTunes Music Library.xml
+Thumbs.db
+VolumeIcon.icns
+
+# Data
+data/
+output/
+*.csv
+*.json
+*.xls
+*.xlsx
+
+# Secrets
+secrets/
+credentials.json
+config/keys.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+.pybuilder/
+target/
+.pytest_cache/
+.hypothesis/
+.DS_Store
+.mypy_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+# Frontend
+.next/
+out/
+.nuxt/
+dist/
+public/dist/
+*.zip
+
+# Backend
+logs/
+tmp/
+temp/
+runtime/
+storage/
+.sessions/
+sessions/
+.cache/
+
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration specific
+config.json
+settings.json
+local.properties
+gradle.properties
+
+# Output of static site generators
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+*#
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Documentation
+docs/_build/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+
+# Coverage
+coverage/
+coverage.xml
+.coverage*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
