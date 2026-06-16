@@ -159,7 +159,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 支持
 
-如有问题，请提交Issue或发送邮件至 [your-email@example.com](mailto:your-email@example.com)
+如有问题，请提交Issue或发送邮件至 [1186036686l@qq.com](mailto:1186036686@qq.com)
 
 ## 致谢
 
