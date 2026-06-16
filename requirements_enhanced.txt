@@ -1,0 +1,28 @@
+# 核心依赖
+akshare>=1.9.25
+pandas>=1.5.0
+numpy>=1.21.0
+requests>=2.28.0
+yfinance>=0.2.18
+
+# Web框架（如需要）
+flask>=2.2.0
+fastapi>=0.85.0
+uvicorn>=0.18.0
+
+# 数据处理
+xlrd>=2.0.0
+openpyxl>=3.0.0
+lxml>=4.9.0
+
+# 图表可视化
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# 类型提示
+typing-extensions>=4.0.0
+
+# 工具
+pydantic>=1.10.0
+python-dateutil>=2.8.0
